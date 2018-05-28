@@ -1,0 +1,23 @@
+.Categoria {
+   /*float: left;
+   width: 150px;
+   */
+   flex:1;
+   height: 100px;
+   background-color: #ececec;
+   border-radius: .5rem;
+}
+.Categoria:not(:last-of-type){
+   margin-right: 1rem;
+}
+@media (max-width: 480px) {
+   .Categoria:nth-child(2),
+   .Categoria:nth-child(3){
+      display: none;
+   }
+}
+@media (min-width: 481px) and (max-width: 640px) {
+   .Categoria:nth-child(2){
+      display: none;
+   }
+}

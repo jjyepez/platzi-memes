@@ -1,0 +1,12 @@
+.Logo {
+   flex: 1;
+   width: 200px;
+   height: 35px;
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+@media (max-width: 481px) {
+   .Logo {
+      background-position: center;
+   }
+}

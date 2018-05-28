@@ -1,0 +1,18 @@
+.Contenido {
+   display: grid;
+   grid-template-columns: repeat(3, 250px);
+   grid-gap: 1rem;
+}
+.memeGIF {
+   width: 100%;
+}
+@media (max-width: 480px) {
+   .Contenido {
+      grid-template-columns: auto;
+   }
+}
+@media (min-width: 481px) and (max-width: 640px) {
+   .Contenido {
+      grid-template-columns: auto auto;
+   }
+}
