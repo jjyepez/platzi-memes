@@ -1,10 +1,7 @@
 .Categorias {
-   width: 100%;
+   min-width: 100%;
 }
 .scroller {
-   display: flex;
-   flex-direction: row;
-   width: auto;
    white-space: nowrap;
    overflow: auto;
    overflow-y: hidden;

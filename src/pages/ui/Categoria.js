@@ -2,8 +2,13 @@ import React from 'react'
 import './categoria.css'
 
 const Categoria = props => (
-   <div className = 'Categoria'>
-      {props.children}
+   <div
+      className = 'Categoria'
+      style = {{
+         backgroundColor: props.categoria.color
+      }}
+   >
+      {props.categoria.nombre}
    </div>
 )
    

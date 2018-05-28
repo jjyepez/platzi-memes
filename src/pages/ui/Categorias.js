@@ -7,10 +7,11 @@ const Categorias = props => (
    <div className = 'Categorias'>
       <h4>Búsquedas recientes ...</h4>
       <div className = 'scroller'>
-         {Array(4).fill('').map( (el, i) => (
+         {props.categorias.map( (el, i) => (
             <Categoria
-               key = {i}
-            >{i}</Categoria>
+               key       = {i}
+               categoria = {el}
+            />
          ))}
       </div>
    </div>

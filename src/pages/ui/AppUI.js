@@ -25,9 +25,11 @@ const AppUI = props => (
       <Buscador/>
     </nav>
 
-    <Categorias/>
+    <Categorias
+      categorias = {props.categorias}
+    />
     <Contenido
-      memes = {props.memes}
+      memes      = {props.memes}
     />
   </div>
 )

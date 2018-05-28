@@ -1,14 +1,18 @@
 .Categoria {
-   /*float: left;
-   width: 150px;
-   */
-   flex:1;
-   height: 100px;
+   display: inline-block;
    background-color: #ececec;
    border-radius: .5rem;
+   white-space: nowrap;
+   padding: 1rem 1.5rem;
+   color: #fff;
+   opacity: .85;
+   cursor: pointer;
+}
+.Categoria:hover{
+   opacity: 1;
 }
 .Categoria:not(:last-of-type){
-   margin-right: 1rem;
+   margin-right: .5rem;
 }
 @media (max-width: 480px) {
    .Categoria:nth-child(2),
